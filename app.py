@@ -13,4 +13,4 @@ def test():
 
 
 if __name__ == "__main__":    # 如果以主程式執行
-    app.run()  # 立刻啟動伺服器
+    app.run(debug=True, port=8000)  # 立刻啟動伺服器
